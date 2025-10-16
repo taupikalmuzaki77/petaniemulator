@@ -1,0 +1,36 @@
+{
+  "public/cover/lgow2.png": {
+    "file": "assets/lgow2-DzOszCa9.png",
+    "src": "public/cover/lgow2.png"
+  },
+  "public/cover/lmksm.png": {
+    "file": "assets/lmksm-97YXSX9k.png",
+    "src": "public/cover/lmksm.png"
+  },
+  "public/cover/lnaruto.png": {
+    "file": "assets/lnaruto-DRsr-_3C.png",
+    "src": "public/cover/lnaruto.png"
+  },
+  "public/cover/lnfs.png": {
+    "file": "assets/lnfs-BowJb1Tq.png",
+    "src": "public/cover/lnfs.png"
+  },
+  "public/cover/lre4.png": {
+    "file": "assets/lre4-BBLnYaRX.png",
+    "src": "public/cover/lre4.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DtKgxB3u.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bj43h_rG.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
