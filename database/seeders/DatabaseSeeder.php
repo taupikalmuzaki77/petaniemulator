@@ -221,5 +221,65 @@ class DatabaseSeeder extends Seeder
         ]);
         $genreIds = [9, 12];
         $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'digimon-rumble-arena-2',
+            'title'=> 'digimon rumble arena 2',
+            'img'=> 'digimonrumblearena2.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Digimon Rumble Arena 2 adalah game bergenre fighting yang dirilis Bandai pada tahun 2004. Game ini merupakan sequel lanjutan dari versi sebelumnya.',
+            'link'=> 'https://ouo.io/rGBT6WJ'
+        ]);
+        $genreIds = [5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'dark-cloud-2',
+            'title'=> 'dark cloud 2',
+            'img'=> 'darkcloud2.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Dark Cloud 2 atau juga dikenal sebagai Dark Chronicle adalah game yang dikembangkan oleh Level-5 dan dirilis oleh Sony Computer Entertainment pada tahun 2002.',
+            'link'=> 'https://ouo.io/JjsN23o'
+        ]);
+        $genreIds = [1, 10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'dynasty-warriors-5-xtreme-legend',
+            'title'=> 'dynasty warriors 5 xtreme legend',
+            'img'=> 'dynastywarriors5xtremelegend.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Dynasty Warriors 5 Xtreme Legend dirilis pada tahun 2005. Menurut Wikipedia di seri ini pemain tidak diizinkan untuk memainkan Mode Mosou jika tidak punya  disk game Dynasty Warrior 5.',
+            'link'=> 'https://ouo.io/6ZuYXs'
+        ]);
+        $genreIds = [1];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'haunting-ground',
+            'title'=> 'haunting ground',
+            'img'=> 'hauntingground.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Haunting Ground adalah game bergenre Survival Horror yang dikembangkan dan dirilis oleh Capcom pada tahun 2005. Cerita berkisah tentang seorang wanita bernama Fiona Belli yang terbangun di ruang bawah tanah sebuah kastil. Di game ini mengharuskan player untuk menghindari dan sembunyi dari musuh, karna kalo fiona dekat dengan musuh entah kenapa layar game menjadi putih blur seperti  belum sarapan di dunia nyata lalu mau pingsan.',
+            'link'=> 'https://ouo.io/PPSAABC'
+        ]);
+        $genreIds = [6];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'yakuza-2',
+            'title'=> 'yakuza 2',
+            'img'=> 'yakuza2.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Dirilis pada tahun 2006, game ini dikembangkan dan dirilis oleh Sega yang dimana ini adalah seri kedua dari judul sebelumnya. Di seri ini Kazuma Kiryu menerima permintaan dari Klan Tojo untuk mencegah perang antara Tojo dengan Omi Alliance.',
+            'link'=> 'https://ouo.io/iZHaK0r'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
     }
 }
