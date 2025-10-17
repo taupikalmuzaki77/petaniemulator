@@ -27,7 +27,6 @@ class DatabaseSeeder extends Seeder
             'link'=> 'https://ouo.io/3AUD0n'
 
         ]);
-
         $genreIds = [6, 11];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -40,7 +39,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Dikembangkan oleh Santa Monica Studio dan diterbitkan oleh Sony Computer Entertainment pada tahun 2007. Di game ini kita bermain sebagai Kratos yang dimana dia memiliki gelar dewa perang.',
             'link'=> 'https://ouo.io/sHKJuB'
         ]);
-
         $genreIds = [1, 2];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -53,7 +51,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Mortal Kombat Shaolin Monks dirilis pada tahun 2005 oleh Midway. Di judul ini kita bermain sebagai Liu Kang & Kung Lau yang mencoba untuk menyelamatkan bumi dari tangan orang luar.',
             'link'=> 'https://ouo.io/Xvbt54'
         ]);
-
         $genreIds = [1, 5];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -66,7 +63,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Game ini rilis pada tahun 2007 untuk versi bahasa jepang, sedangkankan untuk versi bahasa inggris nya, game ini rilis pada tahun 2009. Tidak berbeda jauh seperti judul lain nya, di game ini kita bisa memilih memainkan story atau langsung melakukan free battle.',
             'link'=> 'https://ouo.io/ZD38lF',
         ]);
-
         $genreIds = [5, 10];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -79,7 +75,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Need For Speed Mostwanted adalah sebuah game racing yang dikembangkan oleh Electronic Arts pada tahun 2005, dan game ini merupakan seri ke sembilan dalam seri Need for Speed.',
             'link'=> 'https://ouo.io/NSFL01',
         ]);
-
         $genreIds = [9];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -92,7 +87,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'The Warriors adalah game yang dikembangkan oleh Rockstar Toronto pada tahun 2005. Game ini dibuat didasarkan dari film tahun 1979 yang berjudul serupa.',
             'link'=> 'https://ouo.io/lLXoRv6'
         ]);
-
         $genreIds = [1, 5];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -105,7 +99,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'The Incredibles Rise Of The Underminer dikembangkan oleh Heavy Iron Studios pada tahun 2005. di Game ini kita bisa bermain secara Multi Player bersama teman. Di seri kedua ini kita berpetualang bersama Frozone untuk membasmi kejahatan para robot yang mengancam perdamaian.',
             'link'=> 'https://ouo.io/42VaqX'
         ]);
-
         $genreIds = [1];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -118,7 +111,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'The Incredibles: Rise of the Underminer adalah sebuah game yang dirilis pada tahun 2005. Game ini merupakan alternatif sequel dari film animasi The Incredibles tahun 2004.',
             'link'=> 'https://ouo.io/D67Jlg'
         ]);
-
         $genreIds = [1, 11];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -131,7 +123,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Sengoku Basara Heroes 2 adalah sebuah game Hack and Slash yang dikembangkan oleh Capcom. Game ini pertama kali dirilis pada tahun 2007 untuk Playstation 2 dan Nintendo Wii',
             'link'=> 'https://ouo.io/sG6BUt8'
         ]);
-
         $genreIds = [1, 5];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -144,7 +135,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Dikembangkan oleh Clover Studio, game ini dirilis di jepang dan amerika pada tahun 2006, dan untuk wilayah PAL pada tahun 2007.',
             'link'=> 'https://ouo.io/PIW9ak'
         ]);
-
         $genreIds = [1, 5];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -157,7 +147,6 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'God of War adalah game yang dikembangkan oleh Santa Monica Studio pada tahun 2005. Game ini berlatar di mitologi yunani, yang dimana disini kita berperan sebagai seorang prajurit sparta yang bernama kratos.',
             'link'=> 'https://ouo.io/FLhjWq'
         ]);
-
         $genreIds = [1, 2];
         $post->genre()->syncWithoutDetaching($genreIds);
 
@@ -170,8 +159,67 @@ class DatabaseSeeder extends Seeder
             'desc'=> 'Dikembangkan oleh Sony Computer Entertainment pada tahun 2004. Sesuai namanya, di game ini kita berperan sebagai Jet Li yang dimana dia ini adalah seorang polisi hongkong, yang menyamar sebagai paengawal Boss Chiang.',
             'link'=> 'https://ouo.io/cR07Ul'
         ]);
-
         $genreIds = [1, 5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'bully',
+            'title'=> 'bully',
+            'img'=> 'bully.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Bully atau judul alternatif nya Canis Canem Edit adalah game yang dikembangkan oleh Rockstar Vancouver pada tahun 2006 untuk playstation 2. Di game ini kita berperan sebagai Jimmy Hopkins yang dimana merupakan seorang remaja nakal dan anak yatim piatu yang telah diusir beberapa kali oleh sekolah lamanya. Ia akhirnya di masukkan ke Akademi Bullworth oleh ayah dan ibu angkatnya.',
+            'link'=> 'https://ouo.io/0VCqdxu'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'crash-twinsanity',
+            'title'=> 'crash twinsanity',
+            'img'=> 'crashtwinsanity.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> "Crash Twinsanity adalah sebuah game platformer yang dirilis pada tahun 2004 yang dikembangkan oleh Traveller's Tales.",
+            'link'=> 'https://ouo.io/mIXyxVH'
+        ]);
+        $genreIds = [7];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'def-jam-fight-for-ny',
+            'title'=> 'def jam fight for ny',
+            'img'=> 'defjamfightforny.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Def Jam Fight for NY adalah game bergenre Fighting yang dikembangkan oleh AKI Corporation dan EA Canada lalu diterbitkan oleh EA Games pada tahun 2004.',
+            'link'=> 'https://ouo.io/ia73sS'
+        ]);
+        $genreIds = [5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'final-fantasy-x',
+            'title'=> 'final fantasy x',
+            'img'=> 'finalfantasyx.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Final Fantasy X merupakan game role playing yang dikembangkan dan di terbitkan oleh Square pada tahun 2001. Berlatar didunia Fantasy Spira, dan memiliki latar tempat Pasifik Selatan, Thailand, dan jepang.',
+            'link'=> 'https://ouo.io/GZVmWw'
+        ]);
+        $genreIds = [10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'grand-turismo-4',
+            'title'=> 'gran turismo 4',
+            'img'=> 'granturismo4.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '17-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Gran Turismo 4 adalah sebuah game simulasi yang dikembangkan oleh Polyphony Digital dan di diterbitkan oleh Sony Computer Entertainment pada tahun 2004. Di Game ini memiliki 721 Mobil dari 80 perusahaan manufaktur mobil dan memiliki 51 Track balap.',
+            'link'=> 'https://ouo.io/mHJ5BTT'
+        ]);
+        $genreIds = [9, 12];
         $post->genre()->syncWithoutDetaching($genreIds);
     }
 }
