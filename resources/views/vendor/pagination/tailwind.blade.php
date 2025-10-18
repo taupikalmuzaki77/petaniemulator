@@ -27,7 +27,7 @@
                                 @if ($page == $paginator->currentPage())
                                 {{-- Disable --}}
                                     <span>
-                                        <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600">{{ $page }} </span>
+                                        <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-white dark:text-black bg-black dark:bg-white border border-gray-300 dark:border-gray-600">{{ $page }} </span>
                                     </span>
                                 @else
                                 {{-- Active --}}
