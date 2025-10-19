@@ -3,3 +3,4 @@ deployment:
   task:
     - export DEPLOYPATH=/home/petp5724/public/html/
     - /bin/cp -R cover $DEPLOYPATH
+    - /bin/cp -R builc $DEPLOYPATH

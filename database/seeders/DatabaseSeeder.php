@@ -281,5 +281,41 @@ class DatabaseSeeder extends Seeder
         ]);
         $genreIds = [1, 2];
         $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'genji',
+            'title'=> 'genji',
+            'img'=> 'genji.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '19-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Genji adalah sebuah Game Hack & Slash yang dikembangkan oleh Game Republic pada tahun 2005. Memiliki gameplay seperti Dynasty Warriors, disini kita bermain sebagaii Yoshitsune atau benkei yang masing masing karakter memiliki ciri khas masing masing.',
+            'link'=> 'https://ouo.io/P0dPPH'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'shadow-of-rome',
+            'title'=> 'shadow of rome',
+            'img'=> 'shadowofrome.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '19-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Caesar telah dibunuh di dalam senat Romawi dan konspirasi membayangi dimana mana. Hanya Agrippa dan Octavianus yang beranii mencari kebenaran dalam game buatan Capcom ini.',
+            'link'=> 'https://ouo.io/iEdbs3'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'twisted-metal-black',
+            'title'=> 'twisted metal black',
+            'img'=> 'twistedmetalblack.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '19-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Twisted Metal Black adalah sebuah game perang yang menggunakan kendaraan sebagai alat perang nya. Di game ini tersedia banyak karakter yang bisa dimainkan, setiap karakter memilik statistik dan alur cerita sendiri. Di game ini mengharuskan kamu untuk berkeliling area untuk mencoba mengalahkan musuh sambil mencoba untuk bertahan hidup.',
+            'link'=> 'https://ouo.io/Zb041o'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
     }
 }
