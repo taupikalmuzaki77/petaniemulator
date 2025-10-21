@@ -317,5 +317,77 @@ class DatabaseSeeder extends Seeder
         ]);
         $genreIds = [1, 2];
         $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'ar-tonelico-2-melody-of-metafalica',
+            'title'=> 'ar tonelico 2 melody of metafalica',
+            'img'=> 'artonelico2melodyofmetafalica.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Ar tonelico 2 Melody of Metafalica adalah sebuah game bertemakan Role Playing, yang dikembangkan oleh Gust yang dirilis di jepang pada tahun 2007.',
+            'link'=> 'https://ouo.io/u3BJED'
+        ]);
+        $genreIds = [10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'castlevania-curse-of-darkness',
+            'title'=> 'castlevania curse of darkness',
+            'img'=> 'castlevaniacurseofdarkness.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Castlevania Curse of Darkness sebuah game yang dikembangkan oleh Konami pada tahun 2005.',
+            'link'=> 'https://ouo.io/oWOtw4H'
+        ]);
+        $genreIds = [1, 10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'onimusha-3-demon-siege',
+            'title'=> 'onimusha 3 demon siege',
+            'img'=> 'onimusha3demonsiege.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Onimusha 3 Demon Siege adalah sebuah game yang dikembangkan oleh Capcom pada tahun 2004.',
+            'link'=> 'https://ouo.io/e0apyW'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'silent-hill-origins',
+            'title'=> 'silent hill origins',
+            'img'=> 'silenthillorigins.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Silent Hill Origins adalah sebuah game yang bertemakan Survival & Horror yang dikembangkan oleh Climax Studios dan dirilis oleh Konami di tahun 2007.',
+            'link'=> 'https://ouo.io/0LqZS5D'
+        ]);
+        $genreIds = [6];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'spiderman-3',
+            'title'=> 'spiderman 3',
+            'img'=> 'spiderman3.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Spider-Man 3 adalah sebuah Game yang berdasarkan pada film tahun 2007 dengan judul yang sama.',
+            'link'=> 'https://ouo.io/zCfBfy'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'yakuza',
+            'title'=> 'yakuza',
+            'img'=> 'yakuza.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '21-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Yakuza adalah sebuah game yang dikembangkan oleh Sega, dan dirilis pada tahun 2005 untuk wilayah jepang, kemudian pada 2006 baru dirilis secara global.',
+            'link'=> 'https://ouo.io/rsLSwjH'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
     }
 }
