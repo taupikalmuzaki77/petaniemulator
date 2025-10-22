@@ -389,5 +389,113 @@ class DatabaseSeeder extends Seeder
         ]);
         $genreIds = [1, 2];
         $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'ben-10-protector-of-earth',
+            'title'=> 'ben 10 protector of earth',
+            'img'=> 'ben10protectorofearth.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Ben 10 Protector Of Earth adalah sebuah game yang dikembangkan oleh High Voltage Software dan dirilis oleh D3 Publisher pada tahun 2007.',
+            'link'=> 'https://ouo.io/xTNNKV'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'digimon-world-4',
+            'title'=> 'digimon world 4',
+            'img'=> 'digimonworld4.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Digimon World 4 adalah sebuah game yang dikembangkan oleh BEC dan dirilis oleh Bandai di tahun 2005',
+            'link'=> 'https://ouo.io/yv9lap'
+        ]);
+        $genreIds = [1, 10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'ghost-rider',
+            'title'=> 'ghost rider',
+            'img'=> 'ghostrider.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Ghost Rider adalah sebuah game yang dibuat berdasarkan film. Game ini dikembangkan oleh Climax Action dan dirilis oleh 2K pada tahun 2007.',
+            'link'=> 'https://ouo.io/Pg3bLZH'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'mortal-kombat-deadly-alliance',
+            'title'=> 'mortal kombat deadly alliance',
+            'img'=> 'mortalkombatdeadlyalliance.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Mortal Kombat Deadly Alliance adalah sebuah game yang dikembangkan sekaligus dirilis oleh Midway pada tahun 2002.',
+            'link'=> 'https://ouo.io/d7ES1U'
+        ]);
+        $genreIds = [5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'naruto-ultimate-ninja-2',
+            'title'=> 'naruto ultimate ninja 2',
+            'img'=> 'narutoultimateninja2.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Naruto Ultimate Ninja 5 adalah sebuah game yang bertemakan tipe Fighting yang dikembangkan oleh Cyber Connect dan dirilis oleh Bandai pada tahun 2004 untuk region jepang sedangkan untuk global dirilis di tahun 2007.',
+            'link'=> 'https://ouo.io/cwTB6k'
+        ]);
+        $genreIds = [5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'one-piece-round-the-land',
+            'title'=> 'one piece round the land',
+            'img'=> 'onepieceroundtheland.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'One Piece Round the Land adalah sebuah Game yang dikembangkan oleh Bandai di tahun 2004.',
+            'link'=> 'https://ouo.io/qC2eEP'
+        ]);
+        $genreIds = [1, 2];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'radiata-stories',
+            'title'=> 'radiata stories',
+            'img'=> 'radiatastories.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Radiata Stories adalah sebuah game Role Playing di kembangkan oleh tri-Ace dan dirilis oleh Square Enix pada tahun 2005.',
+            'link'=> 'https://ouo.io/mAqov5'
+        ]);
+        $genreIds = [1, 10];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'soul-calibur-3',
+            'title'=> 'soul calibur 3',
+            'img'=> 'soulcalibur3.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Soul Calibur 3 adalah sebuah game bertemakan Fighting yang dikembangkan sekaligus dirilis oleh Namco pada tahun 2005.',
+            'link'=> 'https://ouo.io/80T0Y3V'
+        ]);
+        $genreIds = [5];
+        $post->genre()->syncWithoutDetaching($genreIds);
+
+        $post = Post::create([
+            'slug'=> 'yu-gi-oh-gx-tag-force',
+            'title'=> 'yu-gi-oh gx tag force',
+            'img'=> 'yugiohgxtagforce.jpg',
+            'created_at'=> Carbon::createFromFormat('d-m-Y', '22-10-2025'),
+            'category_id'=> '2',
+            'desc'=> 'Yu-Gi-Oh GX Tag Force adalah sebuah Game yang bertemakan Card yang dimana game ini dikembangkan oleh Konami.',
+            'link'=> 'https://ouo.io/NdtFcD'
+        ]);
+        $genreIds = [14];
+        $post->genre()->syncWithoutDetaching($genreIds);
     }
 }
